@@ -4,7 +4,7 @@
   "description": "Real Time Chat With NodeJS, Socket.io and ExpressJS",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --env-file=.env index.js"
   },
   "repository": {
     "type": "git",
